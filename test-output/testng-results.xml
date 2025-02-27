@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Vankay]]>
+    </line>
+    <line>
+      <![CDATA[bendakaay]]>
+    </line>
+    <line>
+      <![CDATA[Mallepuvvu]]>
+    </line>
+    <line>
+      <![CDATA[Bangaaladumpa]]>
+    </line>
+    <line>
+      <![CDATA[gulabi]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-20T10:04:31 IST" name="Suite" finished-at="2025-02-20T10:04:31 IST" duration-ms="105">
+    <groups>
+      <group name="vegetable">
+        <method signature="GroupExecution.brinjal()[pri:0, instance:testNG.GroupExecution@385c9627]" name="brinjal" class="testNG.GroupExecution"/>
+        <method signature="GroupExecution.ladyfinger()[pri:0, instance:testNG.GroupExecution@385c9627]" name="ladyfinger" class="testNG.GroupExecution"/>
+        <method signature="GroupExecution.potato()[pri:0, instance:testNG.GroupExecution@385c9627]" name="potato" class="testNG.GroupExecution"/>
+      </group> <!-- vegetable -->
+      <group name="flower">
+        <method signature="GroupExecution.lilly()[pri:0, instance:testNG.GroupExecution@385c9627]" name="lilly" class="testNG.GroupExecution"/>
+        <method signature="GroupExecution.rose()[pri:0, instance:testNG.GroupExecution@385c9627]" name="rose" class="testNG.GroupExecution"/>
+      </group> <!-- flower -->
+    </groups>
+    <test started-at="2025-02-20T10:04:31 IST" name="Test" finished-at="2025-02-20T10:04:31 IST" duration-ms="105">
+      <class name="testNG.GroupExecution">
+        <test-method signature="brinjal()[pri:0, instance:testNG.GroupExecution@385c9627]" started-at="2025-02-20T10:04:31 IST" name="brinjal" finished-at="2025-02-20T10:04:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Vankay]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- brinjal -->
+        <test-method signature="ladyfinger()[pri:0, instance:testNG.GroupExecution@385c9627]" started-at="2025-02-20T10:04:31 IST" name="ladyfinger" finished-at="2025-02-20T10:04:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[bendakaay]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ladyfinger -->
+        <test-method signature="lilly()[pri:0, instance:testNG.GroupExecution@385c9627]" started-at="2025-02-20T10:04:31 IST" name="lilly" finished-at="2025-02-20T10:04:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Mallepuvvu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lilly -->
+        <test-method signature="potato()[pri:0, instance:testNG.GroupExecution@385c9627]" started-at="2025-02-20T10:04:31 IST" name="potato" finished-at="2025-02-20T10:04:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Bangaaladumpa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- potato -->
+        <test-method signature="rose()[pri:0, instance:testNG.GroupExecution@385c9627]" started-at="2025-02-20T10:04:31 IST" name="rose" finished-at="2025-02-20T10:04:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[gulabi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- rose -->
+      </class> <!-- testNG.GroupExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

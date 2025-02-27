@@ -13,7 +13,7 @@ public class ActionMethodsFromWebElement {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+		//Changes done in gitHUB
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -23,7 +23,7 @@ public class ActionMethodsFromWebElement {
 		WebElement search= driver.findElement(By.name("search_query"));
 		//sendKeys
 		search.sendKeys("Kun faya kun"+Keys.ENTER);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebElement searchBtn= driver.findElement(RelativeLocator.with(By.xpath("//*[@id=\"center\"]/yt-searchbox/button/yt-icon/span/div")));
 		searchBtn.click();
 		Thread.sleep(3000);
@@ -34,7 +34,7 @@ public class ActionMethodsFromWebElement {
 		
 		
 		
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		
 		driver.quit();
 

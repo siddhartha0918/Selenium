@@ -14,6 +14,7 @@ public class ActionMethodsFromWebElement {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//Changes done in gitHUB
+		//Changes done in eclipse
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
